@@ -1,7 +1,8 @@
 // @ts-ignore
 import faker from "faker";
+import {Mappable} from "./Map";
 
-export class Company {
+export class Company implements Mappable {
   name: string;
   catchPhrase: string;
   location: {
